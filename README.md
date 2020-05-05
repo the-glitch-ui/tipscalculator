@@ -25,7 +25,7 @@ Straight-forward application which, taking a percentage and the bill, will retur
 
 ## Setup
 
-Open index.html
+Clone and Open index.html
 
 ## Features
 
@@ -61,4 +61,4 @@ Project is: _finished_
 
 ## Contact
 
-Created by [@theglitchui](https://www./)
+Created by [@theglitchui](https://github.com/the-glitch-ui)
