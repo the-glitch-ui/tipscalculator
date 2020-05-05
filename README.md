@@ -17,11 +17,11 @@ Straight-forward application which, taking a percentage and the bill, will retur
 
 ## Screenshots
 
-![Tips calculator](./img_tipscalculator.jpg)
+![Tips calculator](./img/img_tipscalculator.jpg)
 
 ## Built with
 
-- HTML, CSS & JavaScript
+- HTML5, CSS3 & JavaScript
 
 ## Setup
 
