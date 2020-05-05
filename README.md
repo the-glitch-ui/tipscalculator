@@ -25,7 +25,7 @@ Straight-forward application which, taking a percentage and the bill, will retur
 
 ## Setup
 
-Clone and pen index.html
+Clone and open index.html
 
 ## Features
 
