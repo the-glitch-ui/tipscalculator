@@ -1,0 +1,237 @@
+/* Main styles */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+
+  background-color: rgb(21, 24, 59);
+
+  font-family: sans-serif;
+  line-height: 1.3;
+}
+
+/* Utilities */
+.margin-bottom-small {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 2rem;
+}
+
+/* Element styles */
+.btn {
+  position: relative;
+  z-index: 200;
+
+  display: block;
+
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: translateY(-0.5rem);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.08rem;
+
+  color: #221a08;
+  border: 0.3rem solid rgb(34, 26, 8, 0.5);
+  border-radius: 0.6rem;
+  outline: none;
+  background-color: rgba(114, 76, 38, 0.6);
+
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-0.8rem) scale(1.1);
+
+  color: rgb(44, 29, 6);
+  background-color: rgba(146, 90, 37, 0.9);
+  box-shadow: 0 0.5rem 1rem rgba(37, 5, 5, 0.4);
+}
+
+.btn:active {
+  transform: translateY(-0.65rem) scale(1.05);
+
+  background-color: rgba(146, 90, 37, 0.8);
+}
+
+.btn::before {
+  position: absolute;
+  z-index: -5;
+  top: -0.4rem;
+  right: -0.4rem;
+  bottom: -0.4rem;
+  left: -0.4rem;
+
+  content: "";
+
+  border: 0.2rem solid rgb(34, 26, 8, 0.9);
+  border-radius: 0.6rem;
+}
+
+.btn:hover::before {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+
+  content: "";
+
+  border: 0.3rem solid rgb(34, 26, 8, 0.9);
+  border-radius: 0.7rem;
+}
+
+.btn__container {
+  z-index: 100;
+
+  display: flex;
+  align-content: baseline;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+  justify-items: center;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+
+  padding: 4rem 5rem;
+
+  border: 0.4rem solid rgb(34, 26, 8, 0.9);
+  border-radius: 1.5rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(117, 77, 35, 0.9),
+    rgba(88, 61, 31, 0.9)
+  );
+  box-shadow: 0 0.7rem 2rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.card::before {
+  position: absolute;
+  z-index: 2;
+  top: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  left: 0.5rem;
+
+  content: "";
+
+  border: 0.2rem dashed rgb(34, 26, 8, 0.5);
+  border-radius: 1rem;
+}
+
+.card__feedback {
+  font-size: 1.5rem;
+}
+
+.card__title {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  color: #221a08;
+
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.center-contents {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.full-bg {
+  position: relative;
+
+  display: block;
+
+  height: 100vh;
+
+  border: 1rem solid rgb(21, 24, 59);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(111, 213, 187, 0.3),
+      rgba(40, 49, 180, 0.3)
+    ),
+    url(../img/jean-bg.png);
+  background-repeat: repeat;
+  background-size: initial;
+}
+
+.footer {
+  margin: 20px;
+
+  letter-spacing: 1px;
+
+  color: rgb(21, 24, 59);
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form__container {
+  z-index: 100;
+
+  margin: 1rem;
+
+  text-align: left;
+}
+
+.form__container label {
+  display: block;
+
+  margin-bottom: 0.4rem;
+
+  color: rgb(34, 26, 8);
+
+  font-size: 1.2rem;
+}
+
+.form__maincontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.form__tip,
+.form__bill {
+  padding: 12px 15px;
+
+  transition: border 0.3s;
+
+  color: rgb(34, 26, 8, 0.9);
+  border: 0.2rem solid rgb(65, 44, 30);
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(172, 140, 110);
+
+  font-family: inherit;
+  font-size: 14px;
+}
