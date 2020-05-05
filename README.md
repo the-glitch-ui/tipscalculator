@@ -61,4 +61,4 @@ Project is: _finished_
 
 ## Contact
 
-Created by [@theglitchui](mailto:theglitchui@criptext.com)
+Created by [@theglitchui](https://github.com/the-glitch-ui)
