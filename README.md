@@ -17,7 +17,7 @@ Straight-forward application which, taking a percentage and the bill, will retur
 
 ## Screenshots
 
-![Tips calculator](https://github.com/the-glitch-ui/tipscalculator/blob/master/img/screenshot.png)
+![Tips calculator](https://github.com/the-glitch-ui/tipscalculator/blob/master/img/img_tipscalculator.jpg)
 
 ## Built with
 
