@@ -4,7 +4,7 @@
 
 - [General info](#general-info)
 - [Screenshots](#screenshots)
-- [Built with](#builtwith)
+- [Built with](#built-with)
 - [Setup](#setup)
 - [Features](#features)
 - [Skills practised](#skills)
