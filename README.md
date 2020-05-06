@@ -1,4 +1,5 @@
 # Tips calculator in JavaScript
+> Demo: https://the-glitch-ui.github.io/tipscalculator/
 
 ## Table of contents
 
